@@ -1,0 +1,9 @@
+{
+  "name": "My Progressive Web App",
+  "short_name": "PWA",
+  "description": "An awesome PWA that works offline.",
+  "start_url": "/html/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}

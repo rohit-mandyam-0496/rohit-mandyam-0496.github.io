@@ -1,0 +1,37 @@
+.animal-img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.animal-img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+.name-bold {
+    font-weight: bold;
+}
+
+.name-bold-italic-blue {
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.size_th {
+    text-align: justify;
+}
+
+/* .animal-img {
+    border: 2px solid #000;
+    transition: transform 0.3s;
+}
+
+.animal-img:hover {
+    transform: scale(1.5);
+} */
