@@ -32,7 +32,10 @@ class BigCats extends Animal {
       } else if (field === "location") {
         return a.location.localeCompare(b.location);
       } else if (field === "size") {
-        return a.size - b.size;
+        let c = parseInt(a.size);
+        let d = parseInt(b.size);
+        console.log(c, d);
+        return c - d;
       }
     });
   }
@@ -48,8 +51,6 @@ class Dogs extends Animal {
         return a.name.localeCompare(b.name);
       } else if (field === "location") {
         return a.location.localeCompare(b.location);
-      } else if (field === "size") {
-        return a.size - b.size;
       }
     });
   }
@@ -61,7 +62,10 @@ class BigFish extends Animal {
   }
   static sortBy(field, animals) {
     return animals.sort((a, b) => {
-      return a.size - b.size;
+      let c = parseInt(a.size);
+      let d = parseInt(b.size);
+      console.log(c, d);
+      return c - d;
     });
   }
 }
